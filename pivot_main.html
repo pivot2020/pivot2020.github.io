@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import handwriting font-->
+      <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"  media="screen,projection"/>
+      <!--Set favicon-->
+      <link rel="icon" type="image/png" href="Logo_V1B.png">
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <style type="text/css">
+        body {
+          overflow: hidden;
+          background-color: #b388ff;
+        }
+        .col.s6 {
+          min-height: 100vh;
+        }
+        h1 {
+          font-family: 'Pacifico', Helvetica, sans-serif;
+          text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
+        }
+        .card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+          margin-right: 0px;
+          color: #26a69a;
+        }
+        .card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating):hover {
+          color: #2bbbad;
+        }
+        .unselectable { 
+          -webkit-user-select: none; 
+          -webkit-touch-callout: none; 
+          -moz-user-select: none; 
+          -ms-user-select: none; 
+          user-select: none;
+        } 
+      </style>
+    </head>
+
+    <body class="unselectable">
+      <div class="row">
+        <div class="col s6 valign-wrapper">
+          <div class="container center-align">
+            <div class="card">
+              <div class="card-content">
+                <div class="row"><h1>Pivot.</h1></div>
+                <div class="row">
+                  <form class="container">
+                      <div class="input-field">
+                        <input id="username" type="text">
+                        <label for="username">Username</label>
+                      </div>
+                      <div class="input-field">
+                        <input id="password" type="password">
+                        <label for="password">Password</label>
+                        <a href="#" class="helper-text left-align">Forgot password?</a>
+                      </div>
+                      <p class="left-align">
+                        <label>
+                          <input type="checkbox" />
+                          <span>Remember me</span>
+                        </label>
+                      </p>
+                      <div class="row"></div>
+                      <a class="waves-effect waves-light btn">Login</a>
+                  </form>
+                </div>
+              </div>
+              <div class="card-action center-align">
+                <a href="#">Create an account</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s6 valign-wrapper">
+          <img class="responsive-img" src="Logo_V1A_Transparent.png">
+        </div>
+      </div>
+      <!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    </body>
+  </html>
